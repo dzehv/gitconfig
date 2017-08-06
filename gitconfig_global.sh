@@ -10,6 +10,7 @@ git config --global	color.branch true
 git config --global	color.interactive true
 # Core settings
 git config --global	core.excludesfile ~/.gitexcludes
+git config --global core.ignorecase false
 
 T_EDITOR=${EDITOR:=vim}
 git config --global	core.editor "$T_EDITOR"
