@@ -11,6 +11,13 @@ git config --global	color.interactive true
 # Core settings
 git config --global	core.excludesfile ~/.gitexcludes
 git config --global core.ignorecase false
+### Default pull and push
+# upstream - push the current branch to its upstream branch...
+# simple - like upstream, but refuses to push if the upstream branch’s name is different from the local one...
+# current - push the current branch to a branch of the same name.
+###
+git config --global	pull.default upstream
+git config --global push.default upstream
 
 T_EDITOR=${EDITOR:=vim}
 git config --global	core.editor "$T_EDITOR"
