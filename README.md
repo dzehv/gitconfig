@@ -61,3 +61,11 @@ touch git-daemon-export-ok
 ``` bash
 git clone git://localhost/project.git
 ```
+
+## Example configuring gitlabs usage for 'go get'
+
+go get usage for private repositories
+
+``` bash
+git config --global url."git@some.addr.com:".insteadOf "https://some.addr.com/"
+```
