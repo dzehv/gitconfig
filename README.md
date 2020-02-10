@@ -16,7 +16,7 @@ Example daemon systemd configuration at file 'git-daemon/git-daemon.service'
 Description=Start Git Daemon
 
 [Service]
-ExecStart=/usr/bin/git daemon --reuseaddr --base-path=/srv/git/ /srv/git/
+ExecStart=/usr/bin/git daemon --reuseaddr --base-path=/home/git/ /home/git/
 
 Restart=always
 RestartSec=500ms
