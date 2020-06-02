@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\e[32mApplying settings...\e[0m"
+echo -e "\033[32mApplying settings...\033[0m"
 
 # log alias
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
@@ -23,6 +23,11 @@ git config --global core.ignorecase false
 
 git config --global	pull.default upstream
 git config --global push.default upstream
+
+# reconcile divergent branches method
+git config --global pull.rebase false  # merge (the default strategy)
+# git config --global pull.rebase true   # rebase
+# git config --global pull.ff only       # fast-forward only
 
 T_EDITOR=${EDITOR:=emacs -nw}
 git config --global	core.editor "$T_EDITOR"
