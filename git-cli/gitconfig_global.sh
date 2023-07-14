@@ -2,6 +2,9 @@
 
 echo -e "\033[32mApplying settings...\033[0m"
 
+# master as default branch
+git config --global init.defaultBranch master
+
 # log alias
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
 
