@@ -32,7 +32,7 @@ git config --global pull.rebase false  # merge (the default strategy)
 # git config --global pull.rebase true   # rebase
 # git config --global pull.ff only       # fast-forward only
 
-T_EDITOR=${EDITOR:=vim}
+T_EDITOR=${EDITOR:=mg}
 git config --global	core.editor "$T_EDITOR"
 
 # print all settings
