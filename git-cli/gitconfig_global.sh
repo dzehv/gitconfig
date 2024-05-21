@@ -9,13 +9,13 @@ git config --global init.defaultBranch master
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # color enabling settings
-git config --global	color.diff true
-git config --global	color.status true
-git config --global	color.branch true
-git config --global	color.interactive true
+git config --global color.diff true
+git config --global color.status true
+git config --global color.branch true
+git config --global color.interactive true
 
 # core settings
-git config --global	core.excludesfile ~/.gitexcludes
+git config --global core.excludesfile ~/.gitexcludes
 git config --global core.ignorecase false
 
 ### default pull and push
@@ -24,7 +24,7 @@ git config --global core.ignorecase false
 # current - push the current branch to a branch of the same name.
 ###
 
-git config --global	pull.default upstream
+git config --global pull.default upstream
 git config --global push.default upstream
 
 # reconcile divergent branches method
@@ -33,7 +33,7 @@ git config --global pull.rebase false  # merge (the default strategy)
 # git config --global pull.ff only       # fast-forward only
 
 T_EDITOR=${EDITOR:=mg}
-git config --global	core.editor "$T_EDITOR"
+git config --global core.editor "$T_EDITOR"
 
 # print all settings
 git --no-pager config --list
