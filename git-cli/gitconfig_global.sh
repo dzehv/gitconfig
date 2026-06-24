@@ -16,6 +16,7 @@ git config --global color.interactive true
 
 # core settings
 git config --global core.excludesfile ~/.gitexcludes
+git config --global commit.template ~/.gitmessage
 git config --global core.ignorecase false
 
 ### default pull and push

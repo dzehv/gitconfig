@@ -1,0 +1,15 @@
+.DS_Store
+.env*
+.venv/
+.claude/
+.vscode/
+.idea/
+.cursor/
+.zed/
+.anthropic/
+.aider/
+.continue/
+.helix/
+.turbo/
+.nx/
+.cache/

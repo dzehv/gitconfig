@@ -1,0 +1,32 @@
+
+
+# ==============================================================================
+# GIT TRAILERS TEMPLATE
+# (Uncomment the required tag by removing '# '. Ensure there is at least one
+# empty line between your commit description and these trailers)
+# ==============================================================================
+
+# --- OWNERSHIP & CO-AUTHORSHIP ---
+# Co-authored-by: Name <email@example.com>
+# Signed-off-by: Name <email@example.com>
+# Reviewed-by: Name <email@example.com>
+# Acked-by: Name <email@example.com>
+# Tested-by: Name <email@example.com>
+
+# --- ORIGIN & CREDITS ---
+# Reported-by: Name <email@example.com>
+# Suggested-by: Name <email@example.com>
+# Inspired-by: Name <email@example.com>
+# Based-on-patch-by: Name <email@example.com>
+# Helped-by: Name <email@example.com>
+
+# --- ISSUE TRACKING & INTEGRATIONS (Jira, GitHub, GitLab) ---
+# Fixes: #123
+# Closes: #123
+# Resolves: #123
+# Related-to: PROJ-101
+# See-also: https://github.com/user/repo/issues/456
+
+# --- ADDITIONAL METADATA ---
+# Deprecated-in: v2.4.0
+# Security-fix: CVE-2026-XXXXX
