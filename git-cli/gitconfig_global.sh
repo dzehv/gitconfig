@@ -18,6 +18,8 @@ git config --global color.interactive true
 git config --global core.excludesfile ~/.gitexcludes
 git config --global commit.template ~/.gitmessage
 git config --global core.ignorecase false
+# to use 'git root' and see the oldest commit hash
+git config --global alias.root 'rev-list --max-parents=0 HEAD'
 
 ### default pull and push
 # upstream - push the current branch to its upstream branch...
