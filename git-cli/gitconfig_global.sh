@@ -37,6 +37,7 @@ git config --global pull.rebase false  # merge (the default strategy)
 
 T_EDITOR=${EDITOR:=mg}
 git config --global core.editor "$T_EDITOR"
+# git config --global core.pager "less"
 
 # print all settings
 git --no-pager config --list
