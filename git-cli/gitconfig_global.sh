@@ -25,6 +25,8 @@ git config --global push.default upstream
 
 # fetch tags during git fetch to handle tags pushed without branch updates
 git config --global --add remote.origin.fetch "+refs/tags/*:refs/tags/*"
+# unset this option
+# git config --unset remote.origin.fetch "+refs/tags/*:refs/tags/*"
 
 # reconcile divergent branches method
 git config --global pull.rebase false    # merge only
