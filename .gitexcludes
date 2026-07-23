@@ -7,9 +7,18 @@
 .cursor/
 .zed/
 .anthropic/
-.aider/
 .continue/
 .helix/
 .turbo/
 .nx/
 .cache/
+
+# aider history and chat logs
+.aider/
+.aider*
+# !.aider.conf.yml
+
+# aider backups and temp files
+.aider.tags.cache.*
+.aider.input.history
+.aider.chat.history.md
