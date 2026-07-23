@@ -38,8 +38,9 @@ T_EDITOR=${EDITOR:=mg}
 git config --global core.editor "$T_EDITOR"
 # git config --global core.pager "less"
 
-# standard aliases
+# graph log aliases
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
+git config --global alias.decor "log --graph --oneline --decorate --all"
 git config --global alias.root 'rev-list --max-parents=0 HEAD'
 
 # forensic aliases
